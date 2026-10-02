@@ -24,6 +24,7 @@ proxies:
   tls: true
   servername: trackydev.site
   skip-cert-verify: false
+  client-fingerprint: chrome
   network: ws
   ws-opts:
     path: /
