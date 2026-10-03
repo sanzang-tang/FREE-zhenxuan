@@ -24,7 +24,22 @@ proxies:
     public-key: PmdZ2ETkHc0zjYcs22xT_wyZk5fEpX7mg7RP396HBBc
     short-id: 232b1b09e45325a4
   servername: cz1.animeteka.info
-  client-fingerprint: random
+  client-fingerprint: chrome
+- name: 🇨🇿 捷克 (Czech) 03 - xiaohe
+  server: ade.axiomed.ir
+  port: 443
+  udp: true
+  type: vless
+  uuid: 77702cd2-6a11-40f4-a817-1efeae6f6889
+  tls: true
+  servername: t4sy714oeyu0ntwavv62g6ua9o.ade-1001.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /vl/Nmf5YfPITFhUjeHE8KfDU5T8H?ed=2560
+    headers:
+      Host: t4sy714oeyu0ntwavv62g6ua9o.ade-1001.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
@@ -32,6 +47,7 @@ proxy-groups:
   - AUTO
   - 🇨🇿 捷克 (Czech) 01 - xiaohe
   - 🇨🇿 捷克 (Czech) 02 - xiaohe
+  - 🇨🇿 捷克 (Czech) 03 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -39,5 +55,6 @@ proxy-groups:
   proxies:
   - 🇨🇿 捷克 (Czech) 01 - xiaohe
   - 🇨🇿 捷克 (Czech) 02 - xiaohe
+  - 🇨🇿 捷克 (Czech) 03 - xiaohe
 rules:
 - MATCH,PROXIES
