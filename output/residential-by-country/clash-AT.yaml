@@ -4,28 +4,27 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇲🇩 摩尔多瓦 (Moldova) 01 - xiaohe
-  server: mori-md.failspace.top
-  port: 443
+- name: 🇦🇹 奥地利 (Austria) 01 (家宽) - xiaohe
+  server: 31.77.227.6
+  port: 52006
   udp: true
   type: vless
-  uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
+  uuid: bc659d88-a1e0-076c-a49a-7b51b26a7a7f
   flow: xtls-rprx-vision
   tls: true
-  servername: mori-md.failspace.top
+  servername: bigdick.gamegrow.ru
   skip-cert-verify: false
-  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇲🇩 摩尔多瓦 (Moldova) 01 - xiaohe
+  - 🇦🇹 奥地利 (Austria) 01 (家宽) - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇲🇩 摩尔多瓦 (Moldova) 01 - xiaohe
+  - 🇦🇹 奥地利 (Austria) 01 (家宽) - xiaohe
 rules:
 - MATCH,PROXIES
