@@ -13,11 +13,11 @@ proxies:
   password: GeregetR8cvQHzYr
 - name: 🇧🇬 保加利亚 (Bulgaria) 02 - xiaohe
   server: 213.183.63.60
-  port: 9061
+  port: 9054
   udp: true
   type: ss
   cipher: aes-256-cfb
-  password: 4R3hUfZ2FHhDmNcP
+  password: VcFuyXvND2yQWSFY
 - name: 🇧🇬 保加利亚 (Bulgaria) 03 - xiaohe
   server: 193.148.59.178
   port: 443
@@ -50,7 +50,7 @@ proxies:
     public-key: oR75S6pg_RDAKIuzv_WrCiwaUqqFoek2iuo5N22llQQ
     short-id: 6ba85179e30d4fc2
   servername: addons.mozilla.org
-  client-fingerprint: qq
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
