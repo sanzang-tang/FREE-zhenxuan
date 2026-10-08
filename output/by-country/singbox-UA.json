@@ -5,15 +5,23 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🌐 其他地区 (Other) 01 - xiaohe",
-      "server": "172.64.229.129",
-      "server_port": 2052,
-      "uuid": "5744e593-1cc8-48fa-b8ca-57cd494fe35b",
+      "tag": "🇺🇦 乌克兰 (Ukraine) 01 - xiaohe",
+      "server": "45.158.185.172",
+      "server_port": 443,
+      "uuid": "698b212d-ca12-4794-8256-252a6e1b4533",
+      "tls": {
+        "enabled": true,
+        "server_name": "z5n1.vpnpolar.online",
+        "insecure": false,
+        "alpn": [
+          "http/1.1"
+        ]
+      },
       "transport": {
         "type": "ws",
-        "path": "/rain1226",
+        "path": "/beeline",
         "headers": {
-          "Host": "eu02.123450908.xyz"
+          "Host": "z5n1.vpnpolar.online"
         }
       }
     },
@@ -22,14 +30,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🌐 其他地区 (Other) 01 - xiaohe"
+        "🇺🇦 乌克兰 (Ukraine) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🌐 其他地区 (Other) 01 - xiaohe"
+        "🇺🇦 乌克兰 (Ukraine) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
